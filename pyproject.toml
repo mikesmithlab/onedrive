@@ -1,0 +1,15 @@
+# This is a file that will install dependencies etc.
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "onedrive"
+version = "0.1.0"
+dependencies = [
+    "msal"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
