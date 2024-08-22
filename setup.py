@@ -14,6 +14,7 @@ setuptools.setup(
         exclude=('tests', 'docs')
     ),
     url='https://github.com/MikeSmithLab/onedrive',
+    install_requires=['msal'],
     test_suite='nose.collector',
     tests_require=['nose'],
 )
